@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../image/laptop-nao-tot.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.col-6{
+    float: left;
+    width: 50%;
+}
+.margin_b{
+    margin-bottom: 7.5px;
+}
+
+h1{
+    color: #009999;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.formchinh{
+    width: 50%;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fafaff;
+    padding: 20px;
+    border: 2px solid #cccccc;
+}
+
+.nhap{
+    margin-bottom: 10px;
+}
+.nhap input[type='text'],
+.nhap input[type='password'],
+.nhap input[type='date']{
+    padding: 7.5px 15px;
+    width: 100%;
+    border: 1px solid #1254d7;
+    outline: none;
+    font-size: 16px;
+    display: inline-block;
+    height: 40px;
+    color: #666666;
+}
+.nhap select{
+    padding: 7.5px 15px;
+    width: 100%;
+    border: 1px solid #dad3d3;
+    outline: none;
+    font-size: 16px;
+    display: inline-block;
+    height: 40px;
+    color: #666666;
+}
+.nhap option{
+    font-size: 16px;
+}
+.nhap input[type='checkbox']{
+    height: 10%;
+    width: 10%;
+}
+.nhap textarea{
+    padding: 7.5px 15px;
+    width: 100%;
+    border: 1px solid #cccccc;
+    outline: none;
+    font-size: 16px;
+    min-height: 120px;
+    color: #666666;
+}
+.btn-box{
+    text-align: right;
+    margin-top: 30px;
+}
+.btn-box button{
+    padding: 7.5px 15px;
+    border-radius: 2px;
+    background-color: #009999;
+}
+.quayve{
+    list-style: none;
+    text-decoration: none;
+}
